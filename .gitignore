@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Local env files
+.env
+.env*.local
+
+# File-based database
+data/
+
+# System logs
+logs/
+*.log
+npm-debug.log*
