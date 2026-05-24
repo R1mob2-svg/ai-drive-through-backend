@@ -2,9 +2,11 @@
   "name": "drive-thru-smart-backend",
   "version": "1.0.0",
   "description": "AI Drive-Through Smart Backend V1 Scaffold",
-  "main": "src/driveThrough/intake/verifiedPaymentIntake.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node local.js",
+    "dev": "node local.js",
+    "vercel-build": "echo Build complete",
     "test": "node src/driveThrough/__tests__/driveThroughBackend.test.js",
     "proof": "node scripts/proof-drive-through-backend-v1.js",
     "demo": "node scripts/demo.js"
